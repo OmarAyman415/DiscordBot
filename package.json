@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3",
+    "ascii-table": "^0.0.9",
+    "discord": "^0.8.2",
+    "discord-logs": "^2.2.1",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.3.0",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
