@@ -61,7 +61,7 @@ client.on('messageCreate', (message) => {
 client.commands = new Collection()
 // console.log(process.env.TOKEN);
 client.login(process.env.TOKEN).then(() => {
-  handleLogs(client),
+  // handleLogs(client),
     loadEvents(client),
     loadCommands(client)
 });
